@@ -14,14 +14,18 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar navRefSetter={setNavState} />
-        <Routes>
-          <Route path="/" exact element={<Home navRef={navRefContainer}/>} />
-          <Route path="/skills" exact element={<Skills navRef={navRefContainer}/>} />
-          <Route path="/work" exact element={<Projects navRef={navRefContainer}/>} />
-          <Route path="/background" exact element={<Background navRef={navRefContainer}/>} />
-          <Route path="/contact" exact element={<Contact navRef={navRefContainer}/>} />
-        </Routes>
+        <div>
+          <Navbar navRefSetter={setNavState} />
+        </div>
+        <div>
+          <Routes>
+            <Route path="/" exact element={<Home navRef={navRefContainer} />} />
+            <Route path="/skills" exact element={<Skills navRef={navRefContainer} />} />
+            <Route path="/work" exact element={<Projects navRef={navRefContainer} />} />
+            <Route path="/background" exact element={<Background navRef={navRefContainer} />} />
+            <Route path="/contact" exact element={<Contact navRef={navRefContainer} />} />
+          </Routes>
+        </div>
         <ScrollToTop />
       </Router>
     </div>

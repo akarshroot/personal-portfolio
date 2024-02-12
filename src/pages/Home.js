@@ -86,8 +86,8 @@ function Home(props) {
                                 <div className="project-card readysetgo">
                                     <a target="_blank" href="https://readysetgo.web.app"><div className="project-card-overlay"></div></a>
                                 </div>
-                                <div className="project-card mediwell">
-                                    <a target="_blank" href="https://mediwell-healthcare.web.app"><div className="project-card-overlay"></div></a>
+                                <div className="project-card nerdymonk">
+                                    <a target="_blank" href="https://nerdymonk.com"><div className="project-card-overlay"></div></a>
                                 </div>
                                 <div className="project-card vednutri">
                                     <a target="_blank" href="https://vednutri.com"><div className="project-card-overlay"></div></a>
